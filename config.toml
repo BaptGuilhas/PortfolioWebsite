@@ -1,0 +1,60 @@
+baseurl         = "https://example.baptisteguilhas.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Example site"
+  subtitle    = "Awesome site"
+
+  cover       = "uploads/cover.jpg"
+  description = "Baptiste Guilhas's awesome example  site"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "No se"
+  fbName = "BaPPPPtiste"
+  githubName = "BaPt"
+
+  logo = ""
+  orgName = ""
+  orgWebsite = ""
+  orgDescription = ""
+
+  author = "Baptiste Guilhas"
+  authorAvatar = "uploads/browndeer.jpg"
+  authorLocation = "Montpellier, France"
+  authorWebsite = ""
+  authorDescription = "Biophysicist, image analyser, coder"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Project"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "Life"
+  url = "/categories/life/"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
