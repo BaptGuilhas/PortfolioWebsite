@@ -6,8 +6,8 @@ paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
-  title       = "Example site"
-  subtitle    = "Awesome site"
+  title       = "Exampl site"
+  subtitle    = "Awesom site"
 
   cover       = "uploads/cover.jpg"
   description = "Baptiste Guilhas's awesome example  site"
@@ -16,7 +16,6 @@ paginate        = 6
   customCSS = []
   RSSLink = ""
 
-  twitterName = "No se"
   fbName = "BaPPPPtiste"
   githubName = "BaPt"
 
